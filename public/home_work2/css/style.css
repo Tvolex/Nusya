@@ -1,0 +1,293 @@
+body, h1, h2, h3, h4, h5, h6, ul, li, p  {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #7F7F7F;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #7F7F7F;
+    overflow-x: hidden;
+}
+
+ul, li {
+    list-style: none;
+    display: inline-block;
+}
+
+.shape {
+    background-color: #F7F7F7;
+    height: 20px;
+}
+
+.shape_list_wrapper {
+    text-align: center;
+}
+
+.header {
+    background-image: url("../img/header_bg.png");
+    height: 100px;
+}
+
+.header_content_wrapper {
+    width: 960px;
+    margin: 10px auto;
+}
+
+.logo, .separator, .nav, .support, .blog_posts, .contacts {
+    display: inline-block;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.separator_line {
+    position: relative;
+    top: 8px;
+    clear: both;
+    font-size: 40px;
+    border-right: 2px solid #E1E1E1;
+}
+
+.nav_list {
+    float: left;
+}
+
+.nav_item {
+    margin-left: 47px;
+}
+
+.footer {
+    background-color: #FBFBFB;
+    border-top: 1px solid #dfdfdf;
+    height: 500px;
+}
+
+.info {
+    margin-top: 56px;
+}
+
+.info_title {
+    margin-bottom: 35px;
+    font-size: 20px;
+    color: #656363;
+}
+
+.contacts {
+    margin-left: 260px;
+    float: left;
+    width: 309px;
+    height: 286px;
+}
+
+.contacts_stores {
+    height: 82px;
+}
+
+.contacts_list, .contacts_item {
+    text-align: left;
+    display: block;
+}
+
+.contacts_item {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.social_list {
+    margin-top: 37px;
+}
+
+.social_item {
+    margin-right: 10px;
+}
+
+.blog_posts {
+    width: 309px;
+    height: 313px;
+    position: relative;
+    left: 10%;
+}
+
+.posts {
+    margin-top: 22px;
+}
+
+.posts_title {
+    font-size: 14px;
+}
+
+.posts_text {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.support {
+    width: 497px;
+    height: 313px;
+    float: right;
+}
+
+.support_item {
+    line-height: 30px;
+    width: 49%;
+}
+
+.support_link:hover, .posts_title_link:hover {
+    color: #f54d56;
+}
+
+.copyrights {
+    width: 994px;
+    margin: 60px auto;
+    padding-top: 15px;
+    border-top: 1px solid #dfdfdf;
+}
+
+.credits {
+    float: left;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.credits_ref {
+    font-weight: bold;
+}
+
+.payment {
+    float: right;
+}
+
+.payment_item {
+    margin-left: 15px;
+}
+
+.banner {
+    height: 430px;
+    color: #ffffff;
+    background-color: #EDECEC;
+}
+
+.banner_content {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+}
+
+.banner_title {
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.banner_text {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 26px;
+    letter-spacing: 2px;
+    width: 200%;
+}
+
+.banner_button {
+    margin-top: 37px;
+}
+
+.banner_link {
+    background-color: #ffffff;
+    padding: 15px 50px;
+    color: #65889b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.products {
+    position: relative;
+    width: 960px;
+    margin: 50px auto 0;
+    color: #656363;
+}
+
+.products_title {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 24px;
+}
+
+.products_line {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.products_item {
+    width: 296px;
+    height: 360px;
+    margin: 38px 0 0 10px ;
+    text-align: center;
+    border: 2px solid #dfdfdf;
+    position: relative;
+}
+
+.products_img_wrapper {
+    display: inline-block;
+    width: 286px;
+    height: 273px;
+    margin-top: 20px;
+}
+
+.products_name {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.discount {
+    padding: 8px 18px;
+    color: #ffffff;
+    background-color: #f54d56;
+    border-left: 2px solid #de3841;
+    position: absolute;
+    left: -2px;
+    top: 24px;
+    letter-spacing: 1px;
+}
+
+.brands {
+    width: 960px;
+    margin: 55px auto;
+}
+
+.brands_item {
+    color: #edecec;
+    border: 2px solid #edecec;
+    padding: 29px 33px;
+    text-align: center;
+    margin: 0 30px 0 10px;
+}
+
+.last_brands {
+    margin-right: 0;
+}
+
+.brands_gender {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.brands_link {
+    color: #edecec;
+    text-transform: uppercase;
+    font-style: italic;
+}
