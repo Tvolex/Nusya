@@ -10,15 +10,15 @@ app.use(express.static(path.join(__dirname, './public')));
 
 
 
-app.use(['/work', '/work/1'], (req, res, next) => {
+app.get(['/work', '/work/1'], (req, res, next) => {
     res.render('homeWork1');
 });
 
-app.use('/work/2', (req, res, next) => {
+app.get('/work/2', (req, res, next) => {
     res.render('homeWork2');
 });
 
-app.use('/work/3', (req, res, next) => {
+app.get('/work/3', (req, res, next) => {
     res.render('homeWork3');
 });
 
@@ -26,6 +26,6 @@ app.use('/', (req, res, next) => {
     res.render('index');
 });
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.port || 3000, () => {
     console.log("Started")
 });
